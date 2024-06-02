@@ -1,0 +1,94 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  background-color: #162037;
+}
+
+.navbar {
+  background: #162037;
+  opacity: 0.7;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 103px;
+  z-index: 10;
+}
+
+.nav-logo {
+  position: absolute;
+  left: 48.5%;
+  width: 64px;
+  height: 70px;
+  padding-top: 15px;
+}
+
+.our-mission {
+  background: url(../images/standing.webp) no-repeat center;
+  background-size: 100% 100%;
+  width: 1777px;
+  height: 612px;
+  margin-top: -25px;
+}
+
+.our-mission > h1 {
+  padding-top: 200px;
+}
+
+.our-mission > img {
+  margin-left: 45.5%;
+}
+
+h1,
+p {
+  color: white;
+  text-align: center;
+}
+
+.plane {
+  overflow: hidden;
+  width: 100%;
+}
+
+.video {
+  position: relative;
+  display: inline-block;
+  margin-top: 103px;
+  width: 1777px;
+}
+
+.video > img {
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  transform: translateY(-50%);
+  width: 250px;
+  height: 250px;
+}
+
+.plane > img {
+  float: left;
+  width: 50%;
+}
+
+.mike {
+  margin-left: 19%;
+  border-radius: 105px;
+  filter: grayscale(100%);
+}
+
+.pilot-info,
+.history {
+  font-family: "Bebas Neue", sans-serif;
+  margin-top: 35px;
+  margin-left: 65%;
+  margin-right: 15%;
+}
+
+.city {
+  color: red;
+}
